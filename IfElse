@@ -1,0 +1,9 @@
+a = 15
+b = 18
+c = 17
+if (a > b):
+    print("Megatron")
+elif (c > b):
+    print("Optimus Prime")
+else:
+    print("Transformers")

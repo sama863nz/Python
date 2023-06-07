@@ -8,4 +8,7 @@ class sam_class:
 
 MH370 = sam_class("Malaysian Airlines Flight 370", 12)
 print(MH370.name)
+print(MH370.age)
+
+
 print(MH370.sam())

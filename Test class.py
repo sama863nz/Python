@@ -5,3 +5,4 @@ class sam_class:
 
 A = sam_class("Samarth Agarwal", 12)
 print(A.name)
+

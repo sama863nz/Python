@@ -1,0 +1,17 @@
+name : sam
+age : 40
+server_details :
+  server-1 : 
+    name : "ec2"
+    capacity : 100 GB
+  server-2 : 
+    name : "fargate"
+    capacity : 50 GB
+
+social-media : 
+  - linkedin-samagarwalpmp
+  - github-sama863nz
+
+comment : | 
+  this is just a line
+  to add details

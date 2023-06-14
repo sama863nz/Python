@@ -1,17 +1,25 @@
-name : sam
-age : 40
-server_details :
-  server-1 : 
-    name : "ec2"
-    capacity : 100 GB
-  server-2 : 
-    name : "fargate"
-    capacity : 50 GB
+name : "sam"
+age : 40 years
+professional details:
+  - skills : Technology Leadership, Management
+  - expertise : AWS cloud
+  - experience : 16 years
 
-social-media : 
-  - linkedin-samagarwalpmp
-  - github-sama863nz
+orgs :
+  PAS : 
+    position : Director, IT
+    location : Christchurch
 
-comment : | 
-  this is just a line
-  to add details
+  St John's :
+    position : BI Manager
+    location : Christchurch
+
+  HCL : 
+    position : Project Manager
+    location : Wellington
+  
+comment : |
+  the are just comments
+
+
+

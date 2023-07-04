@@ -3,9 +3,10 @@ class sam_class:
         self.age = age
         self.name = name
 
-    def sam_function(self):
-        print("py is the most powerful progamming language")
+class sam_new(sam_class):
+    pass
+MAS = sam_class(53, "Captain Zaharie Ahemad Shah")
+MAS1 = sam_new(27, "First Officer Fariq Hammid")
+print(MAS.name)
+print(MAS1.name)
 
-MAS370 = sam_class(12, "MH370")
-print(MAS370.age)
-print(MAS370.sam())

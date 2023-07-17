@@ -1,18 +1,9 @@
-class sam:
-    def __init__(self, name, age):
+class sam_class:
+    def __init__(self,age,name):
         self.name = name
         self.age = age
-
-
-class sam1(sam):
+class Transformers(sam_class):
     pass
-
-x = sam("samarth",12)
-print(x.name)
-
-y = sam1("Sanjeev",41)
-print(y.age)
-
-
-
-    
+Prime = Transformers(41,"Optimus")
+print(Prime.age)
+print(Prime.name)

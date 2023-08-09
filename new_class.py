@@ -1,15 +1,11 @@
-class sam():
+class Sam():
     def __init__(self, name, age):
         self.name = name
         self.age = age
-
-prime = sam("my name is Samarth and my age is ", "12")
-print(prime.name + prime.age)
-
-class new(sam):
-   pass
-
-Car = new("Malaysian 370", 12)
-print(Car.name)
-
-
+    def SI(self, P,R,T):
+        SI =(P*R*T)/100
+        return SI
+    
+prime = Sam("Malaysian 370", "9")
+print(prime.name +": The plane that dissapeared about "+ prime.age + " years ago.")
+print(prime.SI(12345,12,2))
